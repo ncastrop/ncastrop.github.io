@@ -5,7 +5,7 @@ layout: default
   <header> 
     <div class="title">
       <h2>{{ page.title | escape }}</h2>
-      <p><a href="//github.com/ncastrop/ncastrop.github.io/master/{{ page.path }}" class="icon"><i class="fas fa-fw fa-edit"></i> Edit on GitHub</a></p>
+      <p><a href="//github.com/ncastrop/ncastrop.github.io/edit/master/{{ page.path }}" class="icon"><i class="fas fa-fw fa-edit"></i> Edit on GitHub</a></p>
     </div>
     <div class="meta">
       <time class="published" datetime="{{ page.date }}">{{ page.date | date: "%d %b %Y %R" }}</time>
@@ -14,7 +14,6 @@ layout: default
   </header>
   {{ content }}
   
-  <p>Find me in my <a href="github.com/ncastrop">GitHub</a>
   <footer>
     <ul class="stats">
       <li><a class="icon" href="{{ site.url }}"><i class="fas fa-fw fa-folder"></i> Return </a></li>

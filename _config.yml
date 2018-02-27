@@ -23,10 +23,10 @@ url: "https://ncastrop.github.io" # the base hostname & protocol for your site, 
 author:
   name: 'Nicolas Castro'
   last_name: 'Castro'
-  avatar: '/images/avatar.jpeg'
+  avatar: '/images/icon.png'
   github_username: ncastrop
   email: nicolas.castro.p94@gmail.com
-  logo: '/images/logo.svg'
+  logo: '/images/icon.png'
   cv: '//github.com/ncastrop'
 
 # Build settings
