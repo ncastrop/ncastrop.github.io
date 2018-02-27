@@ -2,40 +2,20 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
     <url>
-        <loc>http://localhost:4000/blog/category2/2018/readme.html</loc>
-    </url>
-
-    <url>
-        <loc>http://localhost:4000/category2/2018/readme.html</loc>
-    </url>
-
-    <url>
-        <loc>http://localhost:4000/blog/category1/2017/lorem-ipsum.html</loc>
-    </url>
-
-    <url>
-        <loc>http://localhost:4000/category1/2017/lorem-ipsum.html</loc>
+        <loc>http://localhost:4000/random/2018/post1.html</loc>
     </url>
 
 
     <url>
-        <loc>http://localhost:4000/category2/</loc>
+        <loc>http://localhost:4000/projects/</loc>
     </url>
 
     <url>
-        <loc>http://localhost:4000/category1/</loc>
+        <loc>http://localhost:4000/random/</loc>
     </url>
 
     <url>
-        <loc>http://localhost:4000/category2/</loc>
-    </url>
-
-    <url>
-        <loc>http://localhost:4000/category1/</loc>
-    </url>
-
-    <url>
-        <loc>http://localhost:4000/blog/</loc>
+        <loc>http://localhost:4000/travels/</loc>
     </url>
 
     <url>
@@ -47,19 +27,7 @@
     </url>
 
     <url>
-        <loc>http://localhost:4000/blog/assets/main.css</loc>
-    </url>
-
-    <url>
-        <loc>http://localhost:4000/blog/robots.txt</loc>
-    </url>
-
-    <url>
         <loc>http://localhost:4000/robots.txt</loc>
-    </url>
-
-    <url>
-        <loc>http://localhost:4000/blog/sitemap.xml</loc>
     </url>
 
     <url>

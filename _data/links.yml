@@ -1,6 +1,9 @@
 # blog page sections
-- name: category1
-  href: '/category1/'
+- name: travels
+  href: '/travels/'
 
-- name: category2
-  href: '/category2/'
+- name: projects
+  href: '/projects/'
+
+- name: random
+  href: '/random/'

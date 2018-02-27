@@ -13,26 +13,21 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: Виктория Капитоненко
+title: Keep Thinking
 description: > # this means to ignore newlines until "baseurl:"
-  Блог Виктории Капитоненко. Нужен для сохранения информации, полезной лично для меня, но которая обычно забывается.<br>
-  Сайт написан на Jekyll и использует GitHub Pages.<br>
-  Блог с открытым исходным кодом размещен на <a href="//github.com/ViKapitoshka/blog">github</a>.<br>
-  Патчи, предложения и комментарии приветствуются.<br>
+  Just another nice personal blog<br>
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://blog.kaptn.ru" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://ncastrop.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 
 
 author:
-  name: 'Viktoriya Kapitonenko'
-  last_name: 'Kapitonenko'
-  cv: '//kaptn.ru'
+  name: 'Nicolas Castro'
+  last_name: 'Castro'
   avatar: '/images/avatar.jpeg'
-  github_username:  ViKapitoshka  
-  email: vika@kaptn.ru
-  vk_id: id201664979
-  telegram_name: vikapitoshka 
+  github_username: ncastrop
+  email: nicolas.castro.p94@gmail.com
   logo: '/images/logo.svg'
+  cv: '//github.com/ncastrop'
 
 # Build settings
 markdown: kramdown

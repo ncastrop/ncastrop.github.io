@@ -11,10 +11,10 @@
   <meta name="description" content="Just another nice personal blog">
 
   
-  <title></title>
+  <title>Random Things</title>
   
   <link rel="stylesheet" href="/assets/main.css">
-  <link rel="canonical" href="http://localhost:4000/">
+  <link rel="canonical" href="http://localhost:4000/random/">
   <link rel="shortcut icon" href="/images/favicon.ico" type="image/x-icon">
   <link rel="stylesheet" href="/assets/css/animate.css">
   <script src="/assets/js/jquery.min.js"></script>
@@ -22,7 +22,7 @@
 
 
   
-    <body>
+    <body class="single">
   
 
   <div class="toTop">
@@ -79,59 +79,46 @@
 
     <main class="page-content" aria-label="Content">
       <div id="main">
-        <!-- Post -->
- 
-  <article class="post">
-    <header>
-      <div class="title">
-      <span class="image left image-icon"><a href="/random/2018/post1.html"><img src="/images/www.svg" style="width: 4em;" alt="www"></a></span>
-        <h2><a href="/random/2018/post1.html">Random post</a></h2>
-      </div>
-      <div class="meta">
-        <time class="published" datetime="2018-02-27 17:11:00 -0400">27 Feb 2018 17:11</time>
-        <a href="//github.com/ncastrop" class="author"><span class="name">V.Castro</span><img src="/images/avatar.jpeg" alt="VKapitonenko" /></a>
-      </div>
-    </header>
-    
-      <a href="/random/2018/post1.html" class="image featured"><img src="/post-img/random/1.jpg" alt="Random post"></a>
-    
-    
-      <p><p>This is my very first post on my personal blog. Please be Nice :)</p>
-</p>
-    
-    <footer> 
-      <ul class="actions">
-        <li><a href="/random/2018/post1.html" class="button big">Читать Далее</a></li>
-      </ul>
-      <ul class="stats">
-        <li><a class="icon" href="/random"><i class="fas fa-fw fa-folder"></i> random</a></li>
-        <li><a href="//github.com/ViKapitoshka/blog/edit/master/index.md" class="icon"><i class="fas fa-fw fa-edit"></i> Edit</a></li>
-      </ul>
-    </footer>
-  </article>
+        <!-- categories.html -->
 
+ <!-- category - переменная из адреса сайта -->
+    <header>
+        <h1 class="cat-header" style="text-align: center;">random</h1>
+    </header>
+
+    <style>
+        .cat-header:after {
+            background: #2ebaae;
+            content: '';
+            display: block;
+            height: 2px;
+            margin: 0.75em auto 0 auto;
+            position: relative;
+            width: 4em;
+            }
+    </style>
+
+
+<section>
+    <ul class="posts">
+    	
+    	<li>
+    		<article>
+    			<header>
+    				<h3><a href="/random/2018/post1.html">Random post</a></h3>
+    					<time class="published" datetime="2015-10-20">27 Feb 2018 17:11</time>
+    			</header>
+    			<a href="/random/2018/post1.html" class="image"><img src="/images/www.svg"/></a>
+    		</article>		
+    	</li>
+    	
+    </ul>
+</section>
         
       </div>
     </main>
     
-                <!-- About -->
-          <section id="sidebar">
-            <section id="intro">
-              <a href="//github.com/ncastrop" class="logo"><img src="/images/logo.svg" alt="" /></a>
-              <header>
-                <h2>Blog</h2>
-                <p>By <a href="//github.com/ncastrop">Nicolas Castro</a></p>
-              </header>
-            </section>
-            <section class="blurb">
-              <h2>О сайте</h2>
-              <p>Just another nice personal blog<br>
-</p>
-              <ul class="actions">
-                <li><a href="//github.com/vikapitoshka/blog" class="button">Fork me</a></li>
-              </ul>
-            </section>
- 
+     
 
             <!-- Footer -->
               <section id="footer">
@@ -143,8 +130,7 @@
                   <li><a href="https://telegram.me/" class="fa-paper-plane"><span class="label">Telegram</span></a></li>                  
                 </ul>
                 <p class="copyright">&copy; Kapitonenko. Design: <a href="http://html5up.net">HTML5 UP</a>. Work on <a href="https://jekyllrb.com">Jekyll</a>.</p>
-              </section>
-          </section>
+
         
     </div>
 
