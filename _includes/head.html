@@ -7,10 +7,13 @@
   {% endif %}
   <meta name="robots" content="all"/>
   <meta name="author" content="{{ site.author.name }}">
+  <!--Custom fonts. To improve load times, remove this and update the h1 styling in style.css--> 
+  <link href='http://fonts.googleapis.com/css?family=Lato:300,700' rel='stylesheet' type='text/css'>
+  <!-- stylesheets -->
   <meta name="description" content="{{ page.excerpt | default: site.description | strip_html | normalize_whitespace | truncate: 160 | escape }}">
 
   {% capture blogtitle %}{{page.title}}{%endcapture%}
-  <title>{% if blogtitle %}{{ blogtitle | escape }}{% else %}{{ site.title | escape }}{% endif %}</title>
+  <title>{% if blogtitle %}{{ blogtitle | escape }}{% else %}{{ "N.Castro" | escape }}{% endif %}</title>
   
   <link rel="stylesheet" href="{{ "/assets/main.css" | relative_url }}">
   <link rel="canonical" href="{{ page.url | replace:'index.html','' | absolute_url }}">
@@ -18,3 +21,15 @@
   <link rel="stylesheet" href="{{"/assets/css/animate.css" | prepend: site.baseurl}}">
   <script src="{{"/assets/js/jquery.min.js" | prepend: site.baseurl}}"></script>
 </head>
+<style > 
+  body {
+    font: 100% sans-serif;
+    margin: 0em;
+    color: #666;
+  }
+
+  h1, h2, h3 {
+    font-family: 'Lato', sans-serif;
+    font-weight: 200;
+  }
+</style>
