@@ -27,7 +27,7 @@ author:
   github_username: ncastrop
   email: nicolas.castro.p94@gmail.com
   logo: '/images/icon.png'
-  cv: '//github.com/ncastrop'
+  cv: '/about'
 
 # Build settings
 markdown: kramdown
