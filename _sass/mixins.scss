@@ -132,7 +132,7 @@
 	box-sizing:         $type;
 }
 
-@mixin border-radius($radius: 5px){
+@mixin border-radius-cv($radius: 5px){
 	-webkit-border-radius: $radius;
 	-moz-border-radius:    $radius;
 	-ms-border-radius:     $radius;

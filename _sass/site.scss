@@ -8,6 +8,7 @@
 }
 
 
+
 html {
 	@extend %extend1;
 }
@@ -263,9 +264,9 @@ header .entry-meta {
     background: $theme-color;
     position: absolute;
     right: 0;
-    width: 280px;
+    width: 300px;
     height: 100%;
-    min-height: 800px;
+    min-height: 1000px;
     color: #fff;
     a {
         color: #fff;
@@ -303,20 +304,16 @@ header .entry-meta {
         box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
     }
     .contact-list {
-        .fas, .fab {
-            margin-right: 5px;
-            font-size: 18px;
-            vertical-align: middle;
-        }
         li {
-            margin-bottom: 15px;
+            font-size: 15px;
+            margin-bottom: 10px;
             &:last-child {
                 margin-bottom: 0;
             }
         }
     }
     .container-block {
-        padding: 30px;
+        padding: 15px;
     }
     .container-block-title {
         text-transform: uppercase;

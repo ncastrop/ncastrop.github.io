@@ -2,6 +2,7 @@
   body {
     background-image: none !important;
     background-color: $white;
+    font-size: 12pt;
   }
   .wrapper {
     box-shadow: none;
@@ -24,5 +25,37 @@
   #disqus_thread,
   .goup-container {
     display: none;
+  }
+  @page {
+    size: A4;
+  }
+  // CV PRINT
+  
+  img.avatar {
+      filter: grayscale(1);
+      -webkit-filter: greyscale(1);
+  }
+  .main-wrapper-cv .time {
+     float: right;
+      color: black !important;
+      -webkit-print-color-adjust: exact; 
+  }
+  .sidebar-wrapper {
+      position: static;
+      float: right;
+      width: 40%;
+      -webkit-print-color-adjust: exact; 
+  }
+  
+  .remove-container.container-block {
+     display: none;
+  }
+  
+  footer {
+     display: none;
+  }
+  
+  .skillset-cv .level-bar-inner {
+     background-color: black !important;
   }
 }
