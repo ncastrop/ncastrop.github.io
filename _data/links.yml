@@ -1,9 +1,0 @@
-# blog page sections
-- name: travels
-  href: '/travels/'
-
-- name: projects
-  href: '/projects/'
-
-- name: random
-  href: '/random/'
