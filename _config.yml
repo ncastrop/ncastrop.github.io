@@ -5,10 +5,10 @@ description:        "My projects and other sutff that I like."
 reading_time:       true
 words_per_minute:   200
 logo:               'assets/img/logo.png'
-background:         'assets/img/Trees_1920x1234.png'
+background:         'assets/img/Trees_1920x1234.jpg'
 tiled_bg:           false   # Set this true if you want to tile your background image, otherwise it will be covered
 locale:             en_US
-url:                //ncastrop.github.io
+url:                #//ncastrop.github.io
 
 # Jekyll
 permalink:          /:title/
@@ -24,6 +24,17 @@ mathjax:            true
 sass:
   sass_dir:         _sass
   style:            compressed
+
+jekyll_image_optim:
+  image_optim:
+    allow_lossy: true
+    advpng:
+      level: 2
+    optipng:
+      level: 2
+# Enable these if you want extra optimization:
+    pngout: false
+  svgo: false
 
 # Comments
 # disqus_shortname:   taylantatli
@@ -67,6 +78,8 @@ gems:
   - jekyll-feed
   - jekyll-sitemap
   - jekyll-gist
+  - image_optim
+  - image_optim_pack
 
 jekyll-mentions:
     base_url: https://github.com
