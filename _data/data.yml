@@ -68,8 +68,8 @@ experiences:
       time: July 2016 - December 2018
       company: UTFSM, Valparaíso, Chile
       details: |
-        Assistance for a government funded project caller "Collaborative drones and multimodal vision for monitoring automation of wildfires".
-        its aims were to study the reliability of using multiple drones for detection, monitoring and analysis of wildfires. Worked at different stages:
+        Assistance for a government-funded project called "Collaborative drones and multimodal vision for monitoring automation of wildfires".
+        its aims were to study the reliability of using multiple drones for detection, monitoring, and analysis of wildfires. Worked at different stages:
 
           - Selection of tools and framework.
           - Development of the navigation UI and communication between multiple entities in the system.
@@ -83,20 +83,20 @@ experiences:
       company: Universite de Moncton, Moncton, Canada
       details: |
           Thanks to the Canada-Chile Leadership Exchange Scholarships, I went for six months with a work visa as a researcher. 
-          Made one publication in SPIE conference, and a first experience in english dominant country.
+          Made one publication in SPIE conference, and the first experience in English dominant country.
 
-    - role: Professional internship
+    - role: Professional Internship
       time: December 2016 - February 2017
       company: Cotalker S.P.A, Santiago, Chile
       details: |
-          Development of tools for automation of unit testing, compression and minification processes in the continous integration pipeline for the
+          Development of tools for automation of unit testing, compression and minification processes in the continuous integration pipeline for the
           WebApp of [Cotalker](https://www.cotalker.com/landing).
 
     - role: Industrial internship
       time: January 2016 - March 2016
       company:  Alstom Chile S.A, Santiago, Chile
       details: |
-          Build a minimal web platform for aquisition, storage and online visualization of data from a testing devise mounted on train's engines while 
+          Build a minimal web platform for acquisition, storage and online visualization of data from testing devices mounted on train's engines while 
           they were operative.
 
     - role: Teaching & Laboratory assistant
@@ -105,8 +105,8 @@ experiences:
       details: |
           On three instances during my studies worked as assistant for a class:
 
-            - 2015: Computer structures laboratory. Helped students developing the laboratory activities and theyr projects.
-            - 2017: Digital image processing class and laboratory. Prepared the lab activites and corrections of quizes.
+            - 2015: Computer structures laboratory. Helped students developing laboratory activities and their projects.
+            - 2017: Digital image processing class and laboratory. Prepared the lab activities and corrections of quizzes.
             - 2018: Digital image processing class and laboratory.
 
 projects:
@@ -117,7 +117,7 @@ projects:
     assignments:
       - title: Sensor guided structure from motion for real-time 3D mapping
         link: "#hook"
-        tagline: "This project aims to study the usage of on-board sensors on mobile agens for 3D envirnment structure retrieval."
+        tagline: "This project aims to study the use of onboard sensors on mobile agents for 3D environment structure retrieval."
 
 publications:
     title: Publications
@@ -129,8 +129,8 @@ publications:
         authors: Moulay A. Akhloufi, Nicolás A. Castro, Andy Couturier
         conference: "Autonomous Systems: Sensors, Vehicles, Security, and the Internet of Everything, 2018"
 
-      - title: Accurate fire detection through fully convolutional network
-        authors: Angelo Gonzalez etal.
+      - title: Accurate fire detection through a fully convolutional network
+        authors: Angelo Gonzalez et al.
         conference: "Latin American Conference on Networked and Electronic Media, 2017"
 
 skills:
