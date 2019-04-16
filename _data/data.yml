@@ -8,7 +8,7 @@ sidebar:
 
     # Profile information
     name: Nicolás Castro
-    tagline: CS Researcher & Developer
+    tagline: CS Research & Development
     avatar: profile.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
     # Sidebar links
@@ -41,160 +41,117 @@ sidebar:
       - item: Reading
         link:
 
-      - item: Trecking
+      - item: Programming
         link:
 
 career-profile:
-    title: Career Profile
+    title: Profile
     summary: |
-      Summarise your career here lorem ipsum dolor sit amet, consectetuer
-      adipiscing elit. You can [download this free resume/CV template here]().
-      Aenean commodo ligula eget dolor aenean massa. Cum sociis natoque
-      penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-      Donec quam felis, ultricies nec, pellentesque eu.
-
-      Second paragraph if required.
+      Currently enrolled in a dual program for obtaining a Professional degree and MSc. degree in Electronic Engineering. Responsible, proactive and enthusiastic.
+      With an affection to solve challenging problems, with a critic and constructive perspective. Searching for opportunities that allow me to reach goals 
+      and expand my professional horizon. Always wants to be improving my research, management and leadership skills.
 
 education:
     - degree: MSc in Electronic Engineering
       university: Technical University Federico Santa Maria
-      time: 2017 - Today
+      time: 2017 - Expected graduation Jully 2019
       details: |
-        Describe your study here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-        sociis natoque penatibus et magnis dis parturient montes, nascetur
-        ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-        pretium quis, sem.
 
-          - Bullet point
-          - Bullet point
 
     - degree: Electronic Engineering
       university: Technical University Federico Santa Maria
-      time: 2012 - Today
+      time: 2012 - Expected graduation Jully 2019
       details: |
-        Describe your study here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-        sociis natoque penatibus et magnis dis parturient montes, nascetur
-        ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-        pretium quis, sem.
-
-          - Bullet point
-          - Bullet point
 
 experiences:
-    - role: Lead Developer
-      time: 2015 - Present
-      company: Startup Hubs, San Francisco
+    - role: Research assistant
+      time: July 2016 - December 2018
+      company: UTFSM, Valparaíso, Chile
       details: |
-        Describe your role here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-        Cum sociis natoque penatibus et magnis dis parturient montes,
-        nascetur ridiculus mus. Donec quam felis, ultricies nec,
-        pellentesque eu, pretium quis, sem. Nulla consequat massa quis
-        enim. Donec pede justo. Sed ut perspiciatis unde omnis iste natus
-        error sit voluptatem accusantium doloremque laudantium, totam rem
-        aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
-        architecto beatae vitae dicta sunt explicabo.
+        Assistance for a government funded project caller "Collaborative drones and multimodal vision for monitoring automation of wildfires".
+        its aims were to study the reliability of using multiple drones for detection, monitoring and analysis of wildfires. Worked at different stages:
 
-          - Bullet point
-          - Bullet point
+          - Selection of tools and framework.
+          - Development of the navigation UI and communication between multiple entities in the system.
+          - Research of collaborative drones methods for wildfire analysis.
+          - A thesis in Structure From Motion for real-time 3D mapping.
 
-    - role: Senior Software Engineer
-      time: 2014 - 2015
-      company: Google, London
+        For mor info in the project, visit [here](//wildfirewatch.elo.utfsm.cl/).
+
+    - role: Research internship
+      time: January 2018 - July 2018
+      company: Universite de Moncton, Moncton, Canada
       details: |
-        Describe your role here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-        Cum sociis natoque penatibus et magnis dis parturient montes,
-        nascetur ridiculus mus. Donec quam felis, ultricies nec,
-        pellentesque eu, pretium quis, sem.
+          Thanks to the Canada-Chile Leadership Exchange Scholarships, I went for six months with a work visa as a researcher. 
+          Made one publication in SPIE conference, and a first experience in english dominant country.
 
-          - Bullet point
-          - Bullet point
-
-    - role: UI Developer
-      time: 2012 - 2014
-      company: Amazon, London
+    - role: Professional internship
+      time: December 2016 - February 2017
+      company: Cotalker S.P.A, Santiago, Chile
       details: |
-        Describe your role here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-        Cum sociis natoque penatibus et magnis dis parturient montes,
-        nascetur ridiculus mus. Donec quam felis, ultricies nec,
-        pellentesque eu, pretium quis, sem.
+          Development of tools for automation of unit testing, compression and minification processes in the continous integration pipeline for the
+          WebApp of [Cotalker](https://www.cotalker.com/landing).
 
-          - Bullet point
-          - Bullet point
+    - role: Industrial internship
+      time: January 2016 - March 2016
+      company:  Alstom Chile S.A, Santiago, Chile
+      details: |
+          Build a minimal web platform for aquisition, storage and online visualization of data from a testing devise mounted on train's engines while 
+          they were operative.
+
+    - role: Teaching & Laboratory assistant
+      time: 2015 - 2018
+      company: UTFSM,  Valparaíso, Chile
+      details: |
+          On three instances during my studies worked as assistant for a class:
+
+            - 2015: Computer structures laboratory. Helped students developing the laboratory activities and theyr projects.
+            - 2017: Digital image processing class and laboratory. Prepared the lab activites and corrections of quizes.
+            - 2018: Digital image processing class and laboratory.
 
 projects:
     title: Projects
     intro: >
-      You can list your side projects or open source libraries in this
-      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+      I am devoted to my only big project, which is my current thesis subject.
 
     assignments:
-      - title: Velocity
+      - title: Sensor guided structure from motion for real-time 3D mapping
         link: "#hook"
-        tagline: "A responsive website template designed to help startups promote, market and sell their products."
-
-      - title: DevStudio
-        link: "#"
-        tagline: "A responsive website template designed to help web developers/designers market their services."
-
-      - title: Tempo
-        link: "#"
-        tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
-
-      - title: Atom
-        link: "#"
-        tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
-
-      - title: Delta
-        link: "#"
-        tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
+        tagline: "This project aims to study the usage of on-board sensors on mobile agens for 3D envirnment structure retrieval."
 
 publications:
     title: Publications
     intro: |
-      You can list your publications in this section. Lorem ipsum dolor sit
-      amet, consectetur adipiscing elit. Vestibulum et ligula in nunc
-      bibendum fringilla a eu lectus.
+      I have participated in a few publications in conferences as co-author. Mainly writing, diagraming or researching.
 
     papers:
-      - title: The Art of Computer Programming
-        authors: Donald E. Knuth
-        conference: Addison-Wesley, 1968
+      - title: UAVs for wildland fires
+        authors: Moulay A. Akhloufi, Nicolás A. Castro, Andy Couturier
+        conference: "Autonomous Systems: Sensors, Vehicles, Security, and the Internet of Everything, 2018"
 
-      - title: "Genetic Programming III: Darwinian Invention &amp; Problem Solving"
-        authors: Koza, J.R., Andre, D., Bennett, F.H., Keane, M.A.
-        conference: "Morgan Kaufmann Publishers Inc., San Francisco, CA, USA, 1st edn. (1999)"
-
-      - title: A syntax directed compiler for Algol 60
-        authors: Edgar T. Irons
-        conference: "Comm. ACM 4 (1961), 51–55"
+      - title: Accurate fire detection through fully convolutional network
+        authors: Angelo Gonzalez etal.
+        conference: "Latin American Conference on Networked and Electronic Media, 2017"
 
 skills:
-    title: Skills &amp; Proficiency
+    title: Programming proficiency
 
     toolset:
-      - name: Python & Django
-        level: 98%
+      - name: C++
+        level: 90%
+        hours:
 
-      - name: Javascript & jQuery
-        level: 98%
+      - name: Python
+        level: 75%
 
-      - name: Angular
-        level: 98%
+      - name: Matlab
+        level: 70%
 
-      - name: HTML5 & CSS
-        level: 95%
+      - name: JavaScript, NodeJS, HTML & CSS
+        level: 50%
 
-      - name: Ruby on Rails
-        level: 85%
-
-      - name: Sketch & Photoshop
-        level: 60%
+      - name: PhP, MySQL & Nginx
+        level: 40%
 
 footer: >
     Digned with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>

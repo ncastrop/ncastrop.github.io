@@ -1,7 +1,7 @@
 {% assign education = site.data.data.education %}
 {% if education %}
   {% if site.data.data.sidebar.education %}
-  <div class="education-container container-block section summary-section">
+  <div class="education-container container-block">
 
     <h2 class="section-title container-block-title">
       <span class="fa-stack fa-xs">
@@ -43,7 +43,7 @@
       </div><!--//meta-->
 
       {% if graduation.details %}
-      <div class="details">
+      <div class="details" align="justify">
         {{ graduation.details | markdownify }}
       </div><!--//details-->
       {% endif %}
